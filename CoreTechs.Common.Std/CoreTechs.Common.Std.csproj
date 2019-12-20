@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>Copyright ©  2019</Copyright>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors />
+    <Company />
+    <Description>a .Net Standard version of CoreTechs.Common</Description>
+    <PackageReleaseNotes>
+      Converted from CoreTechs.Common v.21.0.1.0 (.Net Framework).
+      Known Issue: SpeechScope class is currently not available as System.Speech.Synthesis is still not available in .Net Standard.
+    </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
