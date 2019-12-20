@@ -1,7 +1,7 @@
-Common
+CoreTechs.Common.Std
 ======
 
-Utility stuff that I use in every app.
+.Net Standard version of CoreTechs.Common v.21.0.1.0
 
 
-PM> Install-Package CoreTechs.Common
+PM> Install-Package TBD
