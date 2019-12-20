@@ -7,11 +7,15 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors />
     <Company />
+    <PackageId>CoreTechs.Common.Std</PackageId>
+    <Product>CoreTechs.Common.Std</Product>
+    <Title>CoreTechs.Common.Std</Title>
     <Description>a .Net Standard version of CoreTechs.Common</Description>
     <PackageReleaseNotes>
       Converted from CoreTechs.Common v.21.0.1.0 (.Net Framework).
       Known Issue: SpeechScope class is currently not available as System.Speech.Synthesis is still not available in .Net Standard.
     </PackageReleaseNotes>
+    <PackageLicenseUrl>MIT</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
