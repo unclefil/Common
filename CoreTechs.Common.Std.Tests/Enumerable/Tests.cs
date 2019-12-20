@@ -67,7 +67,7 @@ namespace CoreTechs.Common.Std.Tests.Enumerable
         [Test]
         public void CanPreFetchEnumerable()
         {
-            var source = System.Linq.Enumerable.Take(CreateSequence(), 10).ToArray();
+            var source = CreateSequence().Take(10).ToArray();
 
             var log = new List<bool>();
 
